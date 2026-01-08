@@ -1,3 +1,13 @@
+To run the db.json server
+use the command:
+npx json-server --watch db.json --port 3000
+
+so that all the db are stored as a end points in localhost:3000
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

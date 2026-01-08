@@ -2,6 +2,8 @@ To run the db.json server
 use the command:
 npx json-server --watch db.json --port 3000
 
+to run : npm run dev
+
 so that all the db are stored as a end points in localhost:3000
 
 

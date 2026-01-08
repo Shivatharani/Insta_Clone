@@ -1,0 +1,147 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "/assets/profile_pic1.jpg"
+      },
+      "image": "/assets/sunset.jpg",
+      "caption": "Beautiful sunset 🌅 #Nature",
+      "likes": 120,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "Wow! Amazing shot 📸"
+        },
+        {
+          "user": "mark_92",
+          "comment": "Where is this place?"
+        }
+      ],
+      "timestamp": "2025-02-11T14:30:00Z"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "emma_travel",
+        "profile_pic": "/assets/profile_pic2.jpg"
+      },
+      "image": "/assets/mountain.jpg",
+      "caption": "Lost in the mountains 🏔️ #Adventure",
+      "likes": 98,
+      "comments": [
+        {
+          "user": "john_doe",
+          "comment": "This looks so peaceful 😍"
+        },
+        {
+          "user": "sara_life",
+          "comment": "Adding this to my travel list!"
+        }
+      ],
+      "timestamp": "2025-02-12T09:15:00Z"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "alex_snap",
+        "profile_pic": "/assets/profile_pic3.jpg"
+      },
+      "image": "/assets/citylights.jpg",
+      "caption": "City lights at night 🌃 #UrbanLife",
+      "likes": 145,
+      "comments": [
+        {
+          "user": "emma_travel",
+          "comment": "Night vibes are the best ✨"
+        },
+        {
+          "user": "john_doe",
+          "comment": "Which city is this?"
+        }
+      ],
+      "timestamp": "2025-02-13T18:45:00Z"
+    }
+  ],
+  "profile": {
+    "id": 101,
+    "username": "shiv",
+    "profile_pic": "/assets/profile_pic1.jpg"
+  },
+  "suggestions": [
+    {
+      "id": "102",
+      "username": "emma_travel",
+      "profile_pic": "/assets/profile_pic2.jpg"
+    },
+    {
+      "id": "101",
+      "username": "john_doe",
+      "profile_pic": "/assets/profile_pic1.jpg"
+    },
+    {
+      "id": "103",
+      "username": "alex_snap",
+      "profile_pic": "/assets/profile_pic3.jpg"
+    },
+    {
+      "id": "104",
+      "username": "alex_",
+      "profile_pic": "/assets/profile_pic3.jpg"
+    },
+    {
+      "id": "105",
+      "username": "shiva",
+      "profile_pic": "/assets/profile_pic3.jpg"
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "/assets/profile_pic1.jpg"
+      },
+      "image": "/assets/story1.jpg"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "emma_travel",
+        "profile_pic": "/assets/profile_pic2.jpg"
+      },
+      "image": "/assets/story2.jpg"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "alex_snap",
+        "profile_pic": "/assets/profile_pic3.jpg"
+      },
+      "image": "/assets/story3.jpg"
+    }
+  ],
+  "followers": [
+    {
+      "id": "103",
+      "username": "alex_snap",
+      "profile_pic": "/assets/profile_pic3.jpg"
+    },
+    {
+      "id": "102",
+      "username": "emma_travel",
+      "profile_pic": "/assets/profile_pic2.jpg"
+    },
+    {
+      "id": "102",
+      "username": "emma_travel"
+    }
+  ]
+}
